@@ -16,7 +16,7 @@ function banner(){
 banner
 
 function sec(){
-		printf "\t\b${p} [${h}•${p}] Cheking Proxy${m}:    ${p}"
+		printf "\t\b${p} [${h}•${p}] Checking Proxy${m}:    ${p}"
 			for w in {3..0};do
 			get=$(printf "\b${w}")
 		printf "\b\b\b((${h}${get}${p})"
@@ -24,7 +24,7 @@ function sec(){
 		done
 }
 
-printf "\t${p}[${h}•${p}] PROXY YOU?${m}: ${p}"
+printf "\t${p}[${h}•${p}] Your Proxy?${m}: ${p}"
 read proxy;
 
 	if \
@@ -141,7 +141,7 @@ read proxy;
 	echo -e "\n$isp"
 	
 	else 
-		echo -e "\t${p}[${m}!${p}] Proxy Wrong ${m}!!"
+		echo -e "\t${p}[${m}!${p}]  Wrong proxies ${m}!!"
 		exit 1
 	fi
 
